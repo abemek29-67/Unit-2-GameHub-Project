@@ -1,0 +1,75 @@
+/* Lesson 6: setup and Hero Section */
+
+/* Reset and Base Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+
+.main-header {
+    background-color: #2c3e5050;
+    padding: 0 20px;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.main-nav {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* Hero Section */
+
+.hero{
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.hero-subtitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+
+.btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #e74c3c;
+    color: #ffffff;
+}
