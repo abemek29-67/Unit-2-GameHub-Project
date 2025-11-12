@@ -47,6 +47,13 @@ body {
     margin-left: 30px;
 }
 
+/* Lesson 7: Hover Effects */
+
+.main-nav a:hover {
+    color:#3498db;
+}
+
+
 /* Hero Section */
 
 .hero{
