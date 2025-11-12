@@ -5,7 +5,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #abdd37;
+    color: #04ff92;
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
 .logo{
     font-size: 20px;
     font-weight: bold;
-    color: #d20a0a;
+    color: #ff0000;
 
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .main-nav a {
-    color: #abdd37;
+    color: #04ff92;
     text-decoration: none;
     margin-left: 30px;
     transition: color 0.3s ease;
@@ -51,7 +51,7 @@ body {
 /* Lesson 7: Hover Effects */
 
 .main-nav a:hover {
-    color:#3498db;
+    color:#63dd37;
 }
 
 .main-nav a:focus{
