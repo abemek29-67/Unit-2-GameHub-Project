@@ -4,8 +4,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #04ff92;
+    line-height: 2.7;
+    color: #0cff04;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 /* Header Section */
 
 .main-header {
-    background-color: #000000c3;
+    background-color: #5a8e0d82;
     padding: 0 20px;
 }
 
@@ -28,11 +28,11 @@ body {
 }
 
 
-.logo{
-    font-size: 20px;
+.logo {
+    font-size: 24px;
     font-weight: bold;
-    color: #ff0000;
-    transition: transform 3s ease;
+    color: #0e530b;
+    transition: transform 0.3s ease;
 }
 
 /* Lesson 7 Logo Hover */
@@ -48,7 +48,7 @@ body {
 }
 
 .main-nav a {
-    color: #04ff92;
+    color: #0e530b;
     text-decoration: none;
     margin-left: 30px;
     transition: color 0.4s ease;
@@ -57,41 +57,53 @@ body {
 /* Lesson 7: Hover Effects */
 
 .main-nav a:hover {
-    color:#63dd37;
-    border-bottom: 2px solid #ff0404;
+    color: #ffffff;
+    border-bottom: 2px solid #0e530b;
     padding-bottom: 5px;
 }
 
-.main-nav a:focus{
-    outline: 2px solid #3498db;
-    outline-offset: 4px;                
+.main-nav a:focus {
+    outline: 2px solid #cadb34;
+    outline-offset: 4px;
 }
 
 
 /* Hero Section */
 
-.hero{
+.hero {
     background-color: #0aa34c;
     color: #ffffff;
     padding: 100px 0;
     text-align: center;
 }
 
-.hero-title{
+.hero-title {
     font-size: 48px;
     margin-bottom: 24px;
     color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.hero-subtitle{
-    font-size: 20px;
+.hero-title:hover {
+    color:#f39c12;
+    transform: scale(1.05);
+}
+
+.hero-subtitle {
+    font-size: 25px;
     margin-bottom: 20px;
     color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-subtitle:hover{
+    color:#ffffff;
+    transform: scale(1.05);
 }
 
 /* Buttons */
 
-.btn{
+.btn {
     padding: 20px 40px;
     font-size: 22px;
     border: none;
@@ -100,21 +112,21 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #d92607d0;
     color: #ffffff;
 }
 
-.btn:hover{
+.btn:hover {
     transform: translateY(-2px);
     opacity: 0.9;
 }
 
-.btn:active{
+.btn:active {
     transform: translateY(0);
 }
 
-.btn:hover{
-    transform: translateY(-2px) scale(1.05);
+.btn:hover {
+    transform: translateY(-2px) scale(1.25);
     opacity: 0.9;
 }
