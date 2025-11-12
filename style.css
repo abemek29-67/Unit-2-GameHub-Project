@@ -52,6 +52,8 @@ body {
 
 .main-nav a:hover {
     color:#63dd37;
+    border-bottom: 2px solid #ff0404;
+    padding-bottom: 5px;
 }
 
 .main-nav a:focus{
