@@ -89,9 +89,15 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .btn-primary{
     background-color: #d92607d0;
     color: #ffffff;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
