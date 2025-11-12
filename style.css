@@ -5,7 +5,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #ffffff;
+    color: #abdd37;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .main-header .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -37,6 +37,12 @@ body {
 
 .main-nav {
     color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.main-nav a {
+    color: #abdd37;
     text-decoration: none;
     margin-left: 30px;
 }
