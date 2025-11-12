@@ -101,3 +101,7 @@ body {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
+.btn:active{
+    transform: translateY(0);
+}
