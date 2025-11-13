@@ -1,0 +1,132 @@
+/* Lesson 6: setup and Hero Section */
+
+/* Reset and Base Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 2.7;
+    color: #0cff04;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+
+.main-header {
+    background-color: #5a8e0d82;
+    padding: 0 20px;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e530b;
+    transition: transform 0.3s ease;
+}
+
+/* Lesson 7 Logo Hover */
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-nav {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.main-nav a {
+    color: #0e530b;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: color 0.4s ease;
+}
+
+/* Lesson 7: Hover Effects */
+
+.main-nav a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #0e530b;
+    padding-bottom: 5px;
+}
+
+.main-nav a:focus {
+    outline: 2px solid #cadb34;
+    outline-offset: 4px;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-color: #0aa34c;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-title:hover {
+    color:#f39c12;
+    transform: scale(1.05);
+}
+
+.hero-subtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-subtitle:hover{
+    color:#ffffff;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+
+.btn {
+    padding: 20px 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #d92607d0;
+    color: #ffffff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn:hover {
+    transform: translateY(-2px) scale(1.25);
+    opacity: 0.9;
+}
