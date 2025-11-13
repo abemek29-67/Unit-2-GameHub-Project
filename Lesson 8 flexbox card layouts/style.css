@@ -192,3 +192,40 @@ body {
     font-size: 16px;
     line-height: 1.6s;
 }
+
+.feature-card:nth-child(1){
+    background: linear-gradient(135deg,
+    #667eea 0%,#764ba2);
+    color: white;
+}
+
+.feature-card:nth-child(1) h3,
+.feature-card:nth-child(1) p{
+    color: white;
+}
+
+.feature-icon{
+    font-size: 60px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon{
+    transform: scale(1.2) rotate(10deg);
+}
+
+.feature-card{
+    min-width: 280px;
+}
+
+.feature-icon{
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #e8f4f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
