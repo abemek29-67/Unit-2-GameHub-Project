@@ -36,7 +36,7 @@ body {
 }
 
 /* Lesson 7 Logo Hover */
-.logo:hover{
+.logo:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .hero-title:hover {
-    color:#f39c12;
+    color: #f39c12;
     transform: scale(1.05);
 }
 
@@ -96,8 +96,8 @@ body {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.hero-subtitle:hover{
-    color:#ffffff;
+.hero-subtitle:hover {
+    color: #ffffff;
     transform: scale(1.05);
 }
 
@@ -134,91 +134,123 @@ body {
 
 /* Lesson 8: flex box cards */
 
-.features{
+.features {
     padding: 80 px;
     background-color: #f8f9fa;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     font-size: 36px;
     color: #2c3e50;
     margin-bottom: 10px;
 }
 
-.section-subtitle{
+.section-subtitle {
     text-align: center;
     color: #7f8c8d;
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-.features-grid{
+.features-grid {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    flex-flow: row wrap;
 }
 
-.feature-card{
+.feature-card {
     background-color: #ffffff;
     padding: 40px 30px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0, 0, 0.08);
     flex: 1;
     text-align: center;
 }
 
-.feature-card{
+.feature-card {
     transition: transform 0.3s ease,
-    box-shadow 0.3s ease;
+        box-shadow 0.3s ease;
 }
 
-.feature-card:hover{
+.feature-card:hover {
     transform: translateY(-10px);
 }
 
-.feature-icon{
+.feature-icon {
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-.feature-card h3{
-    color: #2c3e50;
+.feature-card h3 {
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
-.feature-card p{
-    color: #7f8c8d;
+.feature-card p {
+    color: white;
     font-size: 16px;
     line-height: 1.6s;
 }
 
-.feature-card:nth-child(1){
+.feature-card:nth-child(1) {
     background: linear-gradient(135deg,
-    #667eea 0%,#764ba2);
+            #667eea 0%, #764ba2 100%);
     color: white;
 }
 
 .feature-card:nth-child(1) h3,
-.feature-card:nth-child(1) p{
+.feature-card:nth-child(1) p {
+    color: white;
+}
+.feature-card:nth-child(2) {
+    background: linear-gradient(135deg,
+            #667eea 0%, #764ba2 100%);
     color: white;
 }
 
-.feature-icon{
+.feature-card:nth-child(1) h3,
+.feature-card:nth-child(1) p {
+    color: white;
+}
+.feature-card:nth-child(3) {
+    background: linear-gradient(135deg,
+            #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+
+.feature-card:nth-child(1) h3,
+.feature-card:nth-child(1) p {
+    color: white;
+}
+.feature-card:nth-child(4) {
+    background: linear-gradient(135deg,
+            #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.feature-card:nth-child(1) h3,
+.feature-card:nth-child(1) p {
+    color: white;
+}
+
+.feature-icon {
     font-size: 60px;
     margin-bottom: 20px;
     transition: transform 0.3s ease;
 }
 
-.feature-card:hover .feature-icon{
+.feature-card:hover .feature-icon {
     transform: scale(1.2) rotate(10deg);
 }
 
-.feature-card{
+.feature-card {
     min-width: 280px;
 }
 
-.feature-icon{
+.feature-icon {
     font-size: 60px;
     width: 100px;
     height: 100px;
