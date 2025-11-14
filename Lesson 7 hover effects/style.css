@@ -57,8 +57,8 @@ body {
 /* Lesson 7: Hover Effects */
 
 .main-nav a:hover {
-    color: #ffffff;
-    border-bottom: 2px solid #0e530b;
+    color: #b54b4b;
+    border-bottom: 2px solid #ffffff;
     padding-bottom: 5px;
 }
 
