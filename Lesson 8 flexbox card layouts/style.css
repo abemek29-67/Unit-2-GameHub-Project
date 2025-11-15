@@ -300,3 +300,18 @@ p{
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rba(0,0,0,0.2);
 }
+
+.hero{
+    background-color:  #3498db;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero-subtitle{
+    font-size: 22px;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
