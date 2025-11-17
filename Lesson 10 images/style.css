@@ -401,3 +401,16 @@ h3 {
     align-items: center;
     gap: 60px;
 }
+
+.community-text{
+    flex: 1;
+}
+
+.community-image{
+    flex: 1;
+}
+
+.community-text h2{
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
