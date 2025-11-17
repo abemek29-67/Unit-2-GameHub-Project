@@ -385,6 +385,8 @@ h3 {
     margin-bottom:1.5rem;
 }
 
-.about-image{
+.about-image img{
     width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
 }
