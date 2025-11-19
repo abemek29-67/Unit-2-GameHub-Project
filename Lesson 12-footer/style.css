@@ -393,7 +393,7 @@ h3 {
 }
 
 .about-image img:hover,
-.community-image img:hover{
+.community-image img:hover {
     transform: scale(1.1);
 }
 
@@ -461,4 +461,20 @@ h3 {
     justify-content: space-between;
     gap: 40px;
     margin-bottom: 40px
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-section p {
+    color: #bdc3c7;
+    font-size: 16px;
 }
