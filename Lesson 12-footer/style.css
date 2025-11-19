@@ -496,3 +496,20 @@ h3 {
 .footer-links a:hover{
     color: #3498db;
 }
+
+.social-links{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-links a{
+    color:#bdc3c7;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover{
+    color: #3498db;
+}
