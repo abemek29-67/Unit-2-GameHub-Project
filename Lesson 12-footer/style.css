@@ -513,3 +513,14 @@ h3 {
 .social-links a:hover{
     color: #3498db;
 }
+
+.footer-bottom{
+    text-align: center;
+    padding-left: 20px;
+    border-top: 1px solid rgba(225,225,225,0.1);
+    color: #95a5a6;
+}
+
+.footer-bottom a:hover{
+    color: #3498db;
+}
