@@ -143,9 +143,21 @@ body {
 
 .section-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
     color: #2c3e50;
     margin-bottom: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+    overflow: hidden; 
+    animation: moveBox 3s infinite;
+}
+
+@keyframes moveBox {
+    50%{transform: translateX(-200px);}
+    100%{transform: translateX(200px);}
 }
 
 .section-subtitle {
