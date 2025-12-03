@@ -156,6 +156,24 @@
    margin: 20px;
 }
 
+/* Task 2 */
+
+.services-container{
+   display: flex;
+   gap: 20px;
+   text-align: center;
+}
+
+.service-card{
+   flex: 1;
+   background-color: #2d2d44;
+   padding: 35px;
+   text-align: center;
+}
+
+
+   
+
 
 
 
