@@ -198,7 +198,19 @@
    line-height: 1.6;
 }
 
+@media(max-width: 768px) {
+   .services-container{
+      flex-direction: column;
+   }
 
+   .section-title{
+      font-size: 28px;
+   }
+
+   .services{
+      padding: 40px 20px;
+   }
+}
 
    
 
